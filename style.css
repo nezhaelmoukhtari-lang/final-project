@@ -325,6 +325,10 @@ body {
     color: #ea580c;
 }
 
+.prototype .pinned-button {
+    align-items: bottom
+}
+
 .prototype .cta-section .cta-button:hover {
     background-color: #f3f4f6;
 }
@@ -338,7 +342,7 @@ body {
 .prototype .footer-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 32px;
+    gap: 128px;
     margin-bottom: 32px;
 }
 
@@ -378,6 +382,10 @@ body {
     text-align: center;
     font-size: 14px;
     color: #9ca3af;
+}
+
+.prototype .footer-box {
+    padding-left: 50px
 }
 
 /* Responsive Design */
